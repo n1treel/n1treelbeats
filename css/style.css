@@ -210,11 +210,11 @@ box-shadow: 7px 3px 13px 3px rgba(0,0,0,0.59);
 .king-footer > a{
   display: inline-grid;
   background-color: #E900FF;
-  width: 20vh;
+  width: 15vh;
   min-height: 50px;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
   margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   margin-left: 1em;
   border-radius: 25px;
   font-weight: 900;

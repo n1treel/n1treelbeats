@@ -102,6 +102,9 @@ box-shadow: 7px 3px 13px 3px rgba(0,0,0,0.59);
   margin-right: 1%;
   vertical-align: center;
   transition: 0.5s;
+  box-shadow: 0px 2px 27px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 27px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 27px 0px rgba(0,0,0,0.75);
 
 
 
@@ -200,16 +203,21 @@ box-shadow: 7px 3px 13px 3px rgba(0,0,0,0.59);
   text-align: center;
 }
 .king-footer{
-  min-height: 10vh;
+  height: 100px;
   width: 100%;
-  background-color: darkblue;
+  background-color: #5800FF;
 }
 .king-footer > a{
   display: inline-grid;
-  background-color: cyan;
+  background-color: #E900FF;
   width: 20vh;
   min-height: 50px;
-  margin-top: 1.5EM AUTO;
+  margin-top: 1.7em;
+  margin-right: 1em;
+  margin-left: 1em;
+  border-radius: 25px;
+  font-weight: 900;
+  transition: 0.3s;
 }
 .king-footer > a > p{
   height: 30%;
@@ -217,6 +225,13 @@ box-shadow: 7px 3px 13px 3px rgba(0,0,0,0.59);
   align-content: center;
   justify-content: center;
   align-items: stretch;
-  margin-top: 1EM;
-
+  margin-top: 0.6em;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.king-footer > a > p:hover{
+  color: white;
+}
+.king-footer > a:hover{
+  background-color: #E90064;
 }

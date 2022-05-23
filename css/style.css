@@ -9,7 +9,7 @@
   background-color: #5800FF;
   width: 100%;
   height: 120px;
-    border-bottom: 4mm ridge rgba(44, 0, 200,1)
+  border-bottom: 4mm ridge rgba(44, 0, 200,1)
 }
 .king-header_logo{
   max-width: 100px;
@@ -63,7 +63,7 @@
 }
 .king-main{
   width: 70%;
-  height: 200vh;
+  height: auto;
   background-color: lightgrey;
   margin: 0 auto;
   color: white;
@@ -98,6 +98,8 @@ box-shadow: 7px 3px 13px 3px rgba(0,0,0,0.59);
   display: inline-block;
   margin-top: 3%;
   margin-bottom: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
   vertical-align: center;
   transition: 0.5s;
 
@@ -146,5 +148,75 @@ box-shadow: 7px 3px 13px 3px rgba(0,0,0,0.59);
 .beat-button_section > button:hover{
   transition: 0.5s;
   background-color: green;
+
+}
+.king-main_drumkits{
+  background-color: #FFC600;
+  width: 100%;
+  min-height: 50vh;
+}
+.king-main_welcome-drumkits{
+  border-top: 4mm ridge rgba(44, 0, 200,1);
+  width: 100%;
+  height: 10% auto;
+  background-color: #E900FF;
+}
+
+.king-main_welcome-drumkits > h1{
+  font-size: 350%;
+  text-align: center;
+}
+.king-main_welcome-drumkits > h2{
+  font-size: 300%;
+  text-align: center;
+}
+
+.king-main_article-1{
+  background-color: #FFC600;
+  width: 100%;
+  height: auto;
+}
+.king-main_article-1 > p{
+  font-size: 180%;
+  width: 75%;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.king-main_welcome-info{
+  border-top: 4mm ridge rgba(44, 0, 200,1);
+  width: 100%;
+  height: 10% auto;
+  background-color: #E900FF;
+}
+
+
+.king-main_welcome-info > h1{
+  font-size: 350%;
+  text-align: center;
+}
+.king-main_welcome-info > h2{
+  font-size: 300%;
+  text-align: center;
+}
+.king-footer{
+  min-height: 10vh;
+  width: 100%;
+  background-color: darkblue;
+}
+.king-footer > a{
+  display: inline-grid;
+  background-color: cyan;
+  width: 20vh;
+  min-height: 50px;
+  margin-top: 1.5EM AUTO;
+}
+.king-footer > a > p{
+  height: 30%;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 1EM;
 
 }

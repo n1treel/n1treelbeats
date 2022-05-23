@@ -203,7 +203,7 @@ box-shadow: 7px 3px 13px 3px rgba(0,0,0,0.59);
   text-align: center;
 }
 .king-footer{
-  height: 100px;
+  min-height: 100px;
   width: 100%;
   background-color: #5800FF;
 }

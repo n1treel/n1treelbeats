@@ -1,0 +1,35 @@
+.beat_foundament{
+    max-width: 275px;
+    max-height: 500px;
+    background-color: grey;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 5px;
+}
+.beat_foundament_image{
+    width: 100%;
+    height: 75%;
+}
+
+.beat_foundament_image img{
+    width: 75%;
+    height: 75%;
+}
+.drumkit-foundament{
+    max-width: 275px;
+    max-height: 500px;
+    background-color: grey;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.drumkit_foundament_image{
+    width: 100%;
+    height: 75%;
+}
+
+.drumkit_foundament_image img{
+    width: 75%;
+    height: 75%;
+}

@@ -2,9 +2,10 @@
     max-width: 275px;
     max-height: 500px;
     background-color: grey;
-    margin: 0 auto;
     display: inline-block;
     border-radius: 5px;
+    align-self: center;
+    margin: 10px;
 }
 .beat_foundament_image{
     width: 100%;
@@ -20,9 +21,10 @@
     max-width: 275px;
     max-height: 500px;
     background-color: grey;
-    margin: 0 auto;
     display: inline-block;
     border-radius: 5px;
+    align-self: center;
+    margin: 10px;
 }
 
 .drumkit_foundament_image{

@@ -1,11 +1,12 @@
 .beat_foundament{
-    max-width: 275px;
-    max-height: 500px;
+    min-width: 250px;
+    height: max-content;
     background-color: grey;
     display: inline-block;
     border-radius: 5px;
     align-self: center;
     margin: 10px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .25), 0 3px 11px 6px rgba(0, 0, 0, 0.13) !important;
 }
 .beat_foundament_image{
     width: 150px;

@@ -12,12 +12,14 @@
     width: 150px;
     height: 150px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .beat_foundament_image img{
     width: 150px;
     height: 150px;
     margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 .drumkit-foundament{
@@ -34,12 +36,14 @@
     width: 150px;
     height: 150px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .drumkit_foundament_image img{
     width: 150px;
     height: 150px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .beat_description_1{
     width: 239px;
@@ -61,4 +65,27 @@
     background-color: rgb(163, 164, 165);
     margin: 0 auto;
     box-shadow: 0 2px 13px 0 rgba(0, 0, 0, .25), 0 3px 10px 3px rgba(0, 0, 0, 0.18) !important;
+}
+.navbar{
+    background-color: #8C9EFF!important;
+}
+footer{
+    background-color: #536DFE;
+}
+.jumbotron1{
+    background-attachment: fixed;
+    background-position-x: center!important;
+    background-size: contain;
+}
+.page_404{
+    
+        /* fallback for old browsers */
+        background: #8e66ea;
+      
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(142, 102, 234, 0.5), rgba(161, 74, 116, 0.5));
+      
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(142, 102, 234, 0.5), rgba(161, 74, 116, 0.5))
+      
 }

@@ -1,1 +1,0 @@
-alert("Sorry, but this page doesnt exist.");

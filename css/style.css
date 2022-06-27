@@ -1,0 +1,156 @@
+/* width */
+::-webkit-scrollbar {
+  max-width: 0.5rem;
+  background: #312e2e;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #312e2e;
+  border-radius: 4rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 1rem;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(197, 206, 211);
+}
+hr{
+  background-color: aliceblue;
+}
+.small-articles{
+  line-height: 50px;
+}
+
+body{
+  
+/* fallback for old browsers */
+background: #000000;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(41, 41, 41, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(41, 41, 41, 1))
+  
+}
+.spinner-wrapper{
+  height: 100vh;
+  background-color: rgb(27, 27, 27);
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+}
+
+.fadeOut {
+  animation: fadeOut 1s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+.shop_hero-section{
+  width: 100%;
+  height: auto;
+}
+
+.shop_hero-section_beats{
+  height: auto;
+}
+.shop-card{
+  display: inline-block;
+  min-height: 500px;
+  width: 275px;
+  background-color: rgb(255, 255, 255);
+  margin: 0.5rem;
+  border-radius: calc(1rem - 1px);
+
+}
+
+.shop-card-body{
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  
+}
+
+.card-img-top{
+  border-radius: calc(1rem - 1px);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .25), 0 3px 9px 4px rgba(0, 0, 0, 0.17) !important;
+  width: 218px;
+  height: 218px;
+  
+}
+
+.button-hover:hover{
+  background-color: rgb(211, 195, 255)!important;
+  box-shadow: 0 2px 6px 0 rgba(0, 17, 255, 0.2), 0 3px 9px 4px rgba(0, 17, 255, 0.2) !important
+}
+
+.audio-player{
+  border-bottom-left-radius: calc(1rem - 1px);
+  border-bottom-right-radius: calc(1rem - 1px);
+}
+
+
+.drumkit-card{
+  display: inline-block;
+  min-height: 600px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  margin: 0.5rem;
+  border-radius: calc(1rem - 1px);
+}
+
+.license-1{
+  width: 40%;
+  height: 8rem;
+  background-color: rgb(92, 56, 255);
+  margin: 0 auto;
+  border-radius: calc(1rem - 1px);
+  display: contents;
+  
+}
+.license_dropdown-select{
+  border-radius: calc(1rem - 1px);
+  background-color: blueviolet;
+}
+.license_dropdown-select:hover{
+  cursor: pointer;
+}
+
+.license-1:hover .license_dropdown-list{
+  visibility: visible;
+  display: block;
+  
+  
+  
+}
+
+
+
+
+.license_dropdown-list{
+  
+  border-radius: calc(1rem - 1px);
+  margin-top: 1rem;
+  
+  
+  
+}
+
+.license_dropdown-item{
+  margin-bottom: 1rem;
+}

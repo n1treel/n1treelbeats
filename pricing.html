@@ -15,6 +15,22 @@
 </head>
 
 <body>
+  <div id="cookieNotice" class="bg-dark p-5 text-white" style="display: none; z-index: 999; width: 100%; position: fixed;">
+    <div id="closeIcon" style="display: none;">
+      <i class="fas fa-times bg-dark"></i>
+    </div>
+    <div class="title-wrap">
+        <h4>Cookie accept</h4>
+    </div>
+    <div class="content-wrap">
+        <div class="msg-wrap">
+            <p>This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our  <a style="color:#115cfa;" href="/privacy-policy.html">Privacy Policy</a></p>
+           
+
+            <button type="button" class="btn btn-info btn-rounded" onclick="acceptCookieConsent();">Accept</button>
+        </div>
+    </div>
+</div>
 
 
 
@@ -388,6 +404,17 @@ click.addEventListener("click",()=>{
 
   gtag('config', 'G-NLMDQDG077');
 </script>
+<script src="js/cookie.js"></script>
+<script>
+  let cookie_consent = getCookie("user_cookie_consent");
+if(cookie_consent != ""){
+    document.getElementById("cookieNotice").style.display = "none";
+}else{
+    document.getElementById("cookieNotice").style.display = "block";
+}
+</script>
+
+
 </body>
 
 </html>

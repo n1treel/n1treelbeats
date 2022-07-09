@@ -15,6 +15,27 @@
 
 <body>
 
+  <div id="cookieNotice" class="bg-dark p-5 text-white"
+    style="display: none; z-index: 999; width: 100%; position: fixed;">
+    <div id="closeIcon" style="display: none;">
+      <i class="fas fa-times bg-dark"></i>
+    </div>
+    <div class="title-wrap">
+      <h4>Cookie accept</h4>
+    </div>
+    <div class="content-wrap">
+      <div class="msg-wrap">
+        <p>This website uses cookies or similar technologies, to enhance your browsing experience and provide
+          personalized recommendations. By continuing to use our website, you agree to our <a style="color:#115cfa;"
+            href="/privacy-policy.html">Privacy Policy</a></p>
+
+
+        <button type="button" class="btn btn-info btn-rounded" onclick="acceptCookieConsent();">Accept</button>
+      </div>
+    </div>
+  </div>
+
+
 
 
 
@@ -52,39 +73,53 @@
   <div class="container" style="min-height: 100vh">
 
     <div class="p-4 mt-5 mb-5 mylinks228" style="background-color: rgb(36, 36, 36);">
-      <div class="text-center p-2" style="background-color: rgb(53, 53, 53); border-top-left-radius: calc(1rem - 1px); border-top-right-radius: calc(1rem - 1px);"><img src="img/itsme 2.jpg" alt="" class="links-icon mt-3"
+      <div class="text-center p-2"
+        style="background-color: rgb(53, 53, 53); border-top-left-radius: calc(1rem - 1px); border-top-right-radius: calc(1rem - 1px);">
+        <img src="img/itsme 2.jpg" alt="" class="links-icon mt-3"
           style="width: 10rem; height: 10rem;border-radius: 100px;">
         <h2 class="text-center pt-3 pb-3" style="color:white; font-weight: bolder;">N1treel</h2>
       </div>
-      <div style="background-color: rgb(63, 63, 63); border-bottom-left-radius: calc(1rem - 1px); border-bottom-right-radius: calc(1rem - 1px);">
+      <div
+        style="background-color: rgb(63, 63, 63); border-bottom-left-radius: calc(1rem - 1px); border-bottom-right-radius: calc(1rem - 1px);">
         <h1 class="text-center pt-5 mb-0" style="color: white; font-weight: bold; font-size: 2.5rem;">Find me on:</h1>
 
         <div class="d-grid gap-2 p-4">
-          <button class="btn btn btn-dark mt-3" type="button" style="font-size: 1.5rem; font-weight: 900;"><a href="https://www.instagram.com/n1treel/" target="_blank" class="nav-link" style="color: white;">instagram</a></button>
-          <button class="btn btn btn-dark mt-3" type="button" style="font-size: 1.5rem; font-weight: 900;"><a href="https://www.youtube.com/channel/UCjO7m4baAYxkme3yg4_l-CA" class="nav-link" target="_blank" style="color: white;">youtube</a></button>
-          <button class="btn btn btn-dark mt-3" type="button" style="font-size: 1.5rem; font-weight: 900;"><a href=" https://www.beatstars.com/n1treel" class="nav-link" target="_blank" style="color: white;">beatstars</a></button>
-          <button class="btn btn btn-dark mt-3" type="button" style="font-size: 1.5rem; font-weight: 900;"><a href="https://www.tiktok.com/@n1treelbeats" class="nav-link" target="_blank" style="color: white;">tiktok</a></button>
-          <button class="btn btn btn-dark mt-3" type="button" style="font-size: 1.5rem; font-weight: 900;"><a href="https://t.me/n1treel" target="_blank" class="nav-link" style="color: white;">Telegram</a></button>
+          <button class="btn btn btn-dark mt-3" type="button" style="font-size: 1.5rem; font-weight: 900;"><a
+              href="https://www.instagram.com/n1treel/" target="_blank" class="nav-link"
+              style="color: white;">instagram</a></button>
+          <button class="btn btn btn-dark mt-3" type="button" style="font-size: 1.5rem; font-weight: 900;"><a
+              href="https://www.youtube.com/channel/UCjO7m4baAYxkme3yg4_l-CA" class="nav-link" target="_blank"
+              style="color: white;">youtube</a></button>
+          <button class="btn btn btn-dark mt-3" type="button" style="font-size: 1.5rem; font-weight: 900;"><a
+              href=" https://www.beatstars.com/n1treel" class="nav-link" target="_blank"
+              style="color: white;">beatstars</a></button>
+          <button class="btn btn btn-dark mt-3" type="button" style="font-size: 1.5rem; font-weight: 900;"><a
+              href="https://www.tiktok.com/@n1treelbeats" class="nav-link" target="_blank"
+              style="color: white;">tiktok</a></button>
+          <button class="btn btn btn-dark mt-3" type="button" style="font-size: 1.5rem; font-weight: 900;"><a
+              href="https://t.me/n1treel" target="_blank" class="nav-link" style="color: white;">Telegram</a></button>
         </div>
-  
-  
+
+
       </div>
-      <h1 class="text-center pb-5 pt-5" style="color: white; font-weight: bold; font-size: 2.5rem;">Leave your thoughts below:</h1>
-      
+      <h1 class="text-center pb-5 pt-5" style="color: white; font-weight: bold; font-size: 2.5rem;">Leave your thoughts
+        below:</h1>
+
 
       <div id="disqus_thread"></div>
 
       <script>
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://n1treelbeats-site.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
+        (function () { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://n1treelbeats-site.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
         })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+          Disqus.</a></noscript>
     </div>
-    
+
 
 
 
@@ -162,7 +197,9 @@
     © 2022 Copyright:
     <a class="" href="https://n1treelbeats.ml/">n1treelbeats.ml</a>
     <br>
-    <p class="mb-0">Only for the deal questions: <a href="mailto:n1treelbeats@gmail.com?subject=I%20have%20a%20deal!&body=Hello!%20Im%20writing%20to%20you%20from%20your%20website...">send Email</a></p>
+    <p class="mb-0">Only for the deal questions: <a
+        href="mailto:n1treelbeats@gmail.com?subject=I%20have%20a%20deal!&body=Hello!%20Im%20writing%20to%20you%20from%20your%20website...">send
+        Email</a></p>
   </div>
 
 
@@ -189,11 +226,24 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NLMDQDG077"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-NLMDQDG077');
 </script>
+
+<script src="js/cookie.js"></script>
+<script>
+  let cookie_consent = getCookie("user_cookie_consent");
+  if (cookie_consent != "") {
+    document.getElementById("cookieNotice").style.display = "none";
+  } else {
+    document.getElementById("cookieNotice").style.display = "block";
+  }
+</script>
+
+
+
 </body>
 
 </html>
